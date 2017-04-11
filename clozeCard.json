@@ -1,0 +1,42 @@
+[
+    {
+        "text":"Austin is the capital of Texas.",
+        "cloze": "Austin"
+    },
+    {
+        "text": "Baton Rouge is the capital of Louisiana.",
+        "cloze": "Baton Rouge"
+    },
+    {
+        "text": "Olympia is the capital of Washington.",
+        "cloze": "Olympia"
+    },
+    {
+        "text": "Albany is the capital of New York.",
+        "cloze": "Albany"
+    },
+    {
+        "text": "Oklahoma City is the capital of Oklahoma.",
+        "cloze": "Oklahoma City"
+    },
+    {
+        "text": "Salem is the capital of Oregon.",
+        "cloze": "Salem"
+    },
+    {
+        "text": "Juneau is the capital of Alaska.",
+        "cloze": "Juneau"
+    },
+    {
+        "text": "Harrisburg is the capital of Pennsylvania.",
+        "cloze": "Harrisburg"
+    },
+    {
+        "text": "Montpelier is the capital of Vermont.",
+        "cloze": "Montpelier"
+    },
+    {
+        "text": "Augusta is the capital of Maine.",
+        "cloze": "Augusta"
+    }
+]

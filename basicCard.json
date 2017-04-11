@@ -1,0 +1,42 @@
+[
+    {
+        "front":"What is the capital of Texas?",
+        "back": "Austin"
+    },
+    {
+        "front": "What is the capital of Louisiana?",
+        "back": "Baton Rouge"
+    },
+    {
+        "front": "What is the capital of Washington?",
+        "back": "Olympia"
+    },
+    {
+        "front": "What is the capital of New York?",
+        "back": "Albany"
+    },
+    {
+        "front": "What is the capital of Oklahoma?",
+        "back": "Oklahoma City"
+    },
+    {
+        "front": "What is the capital of Oregon?",
+        "back": "Salem"
+    },
+    {
+        "front": "What is the capital of Alaska?",
+        "back": "Juneau"
+    },
+    {
+        "front": "What is the capital of Pennsylvania?",
+        "back": "Harrisburg"
+    },
+    {
+        "front": "What is the capital of Vermont?",
+        "back": "Montpelier"
+    },
+    {
+        "front": "What is the capital of Maine?",
+        "back": "Augusta"
+    }
+]
