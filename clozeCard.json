@@ -1,42 +1,42 @@
 [
     {
-        "text":"Austin is the capital of Texas.",
-        "cloze": "Austin"
+        "text":"austin is the capital of Texas.",
+        "cloze": "austin"
     },
     {
-        "text": "Baton Rouge is the capital of Louisiana.",
-        "cloze": "Baton Rouge"
+        "text": "baton rouge is the capital of Louisiana.",
+        "cloze": "baton rouge"
     },
     {
-        "text": "Olympia is the capital of Washington.",
-        "cloze": "Olympia"
+        "text": "olympia is the capital of Washington.",
+        "cloze": "olympia"
     },
     {
-        "text": "Albany is the capital of New York.",
-        "cloze": "Albany"
+        "text": "albany is the capital of New York.",
+        "cloze": "albany"
     },
     {
-        "text": "Oklahoma City is the capital of Oklahoma.",
-        "cloze": "Oklahoma City"
+        "text": "oklahoma city is the capital of Oklahoma.",
+        "cloze": "oklahoma City"
     },
     {
-        "text": "Salem is the capital of Oregon.",
-        "cloze": "Salem"
+        "text": "salem is the capital of Oregon.",
+        "cloze": "salem"
     },
     {
-        "text": "Juneau is the capital of Alaska.",
-        "cloze": "Juneau"
+        "text": "juneau is the capital of Alaska.",
+        "cloze": "juneau"
     },
     {
-        "text": "Harrisburg is the capital of Pennsylvania.",
-        "cloze": "Harrisburg"
+        "text": "harrisburg is the capital of Pennsylvania.",
+        "cloze": "harrisburg"
     },
     {
-        "text": "Montpelier is the capital of Vermont.",
-        "cloze": "Montpelier"
+        "text": "montpelier is the capital of Vermont.",
+        "cloze": "montpelier"
     },
     {
-        "text": "Augusta is the capital of Maine.",
-        "cloze": "Augusta"
+        "text": "augusta is the capital of Maine.",
+        "cloze": "augusta"
     }
 ]

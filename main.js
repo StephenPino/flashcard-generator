@@ -4,10 +4,10 @@ var clozeCardJson = require('./clozeCard.json');
 var basicCardArray = [];
 var clozeCardArray = [];
 var randomNumBasic = function () {
-    return Math.floor((Math.random() * (basicCardArray.length)) + 1)
+    return Math.floor((Math.random() * (basicCardArray.length - 1)))
 };
 var randomNumCloze = function () {
-    return Math.floor((Math.random() * (clozeCardArray.length)) + 1)
+    return Math.floor((Math.random() * (clozeCardArray.length - 1)))
 };
 
 var BasicCard = function (front, back) {
@@ -76,7 +76,7 @@ var clozeCardPrompt = function () {
         name: 'question',
         message: 'Question: ' + clozeCardArray[randomNum].partial()
     }]).then(function (res) {
-        if (res.question === clozeCardArray[randomNum].cloze) {
+        if (res.question.toLowerCase() === clozeCardArray[randomNum].cloze) {
             console.log("Correct!");
             startPrompt();
         }
@@ -87,7 +87,24 @@ var clozeCardPrompt = function () {
     });
 }
 
+var basicCardPrompt = function () {
+    var randomNum = randomNumBasic();
+    inquirer.prompt([{
+        type: 'input',
+        name: 'question',
+        message: 'Question: ' + basicCardArray[randomNum].front
+    }]).then(function (res) {
+        if (res.question.toLowerCase() === basicCardArray[randomNum].back) {
+            console.log("Correct!");
+            startPrompt();
+        }
+        else {
+            console.log("Incorrect! The correct answer was " + basicCardArray[randomNum].back);
+            startPrompt();
+        }
+    });
+}
+
 clozeCardGenerator();
 basicCardGenerator();
 startPrompt();
-
